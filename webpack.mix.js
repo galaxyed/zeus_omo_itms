@@ -103,6 +103,7 @@ mix
     [
       "./node_modules/bootstrap-table/dist/bootstrap-table.css",
       "./node_modules/bootstrap-table/dist/extensions/sticky-header/bootstrap-table-sticky-header.css",
+      "./node_modules/bootstrap-table/dist/extensions/fixed-columns/bootstrap-table-fixed-columns.css",
      "./resources/assets/css/dragtable.css",
     ],
     "public/css/dist/bootstrap-table.css"
@@ -156,6 +157,7 @@ mix
             './resources/assets/js/FileSaver.min.js',
             './node_modules/xlsx/dist/xlsx.core.min.js',
             './node_modules/bootstrap-table/dist/extensions/sticky-header/bootstrap-table-sticky-header.js',
+            './node_modules/bootstrap-table/dist/extensions/fixed-columns/bootstrap-table-fixed-columns.js',
             './node_modules/bootstrap-table/dist/extensions/toolbar/bootstrap-table-toolbar.js'
         ],
         'public/js/dist/bootstrap-table.js'
